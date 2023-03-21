@@ -1,18 +1,14 @@
 {
-    "name": "mp3",
+    "name": "microbit_mp3_grove_v3",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*",
-        "MakerBit-MP3": "github:1010technologies/pxt-makerbit-mp3#v1.0.10",
-        "MakerBit": "github:1010technologies/pxt-makerbit#v2.2.0",
-        "dfplayermini": "github:51bit/dfplayermini#v0.1.6"
+        "core": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "WT2003.ts"
     ],
     "testFiles": [
         "test.ts"
