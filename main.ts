@@ -12,6 +12,9 @@ input.onButtonPressed(Button.B, function () {
     MP3.stoplecture();
 basic.clearScreen()
 })
+grovejoystick.onJoystick(GroveJoystickKey.Press, GroveJoystickPins.P2, GroveJoystickPins.P3, function () {
+    basic.showIcon(IconNames.Heart)
+})
 let buffer = pins.createBuffer(8);
 // Baud rate 9600, TX on P14, RX on P0
 serial.redirect(
